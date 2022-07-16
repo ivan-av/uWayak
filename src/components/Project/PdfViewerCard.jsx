@@ -4,6 +4,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 const PdfViewerCard = () => {
 
   const [numPages, setNumPages] = useState(null);
+  // eslint-disable-next-line
   const [pageNumber, setPageNumber] = useState(1);
 
   function onDocumentLoadSuccess({numPages}) {
@@ -11,17 +12,17 @@ const PdfViewerCard = () => {
     setPageNumber(1);
   }
 
-  function changePage(offSet){
-    setPageNumber(prevPageNumber => prevPageNumber + offSet);
-  }
+  // function changePage(offSet){
+  //   setPageNumber(prevPageNumber => prevPageNumber + offSet);
+  // }
 
-  function changePageBack(){
-    changePage(-1)
-  }
+  // function changePageBack(){
+  //   changePage(-1)
+  // }
 
-  function changePageNext(){
-    changePage(+1)
-  }
+  // function changePageNext(){
+  //   changePage(+1)
+  // }
 
   return (
     <div className="pdfviewer">
