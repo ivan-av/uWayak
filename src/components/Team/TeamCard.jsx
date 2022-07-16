@@ -17,6 +17,7 @@ const TeamCard = () => {
         <li>Ricardo Cruz Vazquez - Administrador</li>
         <li>Iván D. Avila Campos - Desarrollador</li>
       </ul>
+      
     </article>
   )
 }
