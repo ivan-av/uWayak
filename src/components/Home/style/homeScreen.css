@@ -1,4 +1,9 @@
-.home-container{
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__card-container{
   padding: var(--padding-mobile);
   display: grid;
   justify-items: center;
