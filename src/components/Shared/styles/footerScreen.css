@@ -5,6 +5,7 @@
   box-shadow: 0px -2px 3px rgb(99, 99, 99);
 }
 .footer__text {
+  font-size: 17px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 20px;

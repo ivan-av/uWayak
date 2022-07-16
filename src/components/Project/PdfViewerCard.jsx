@@ -24,13 +24,9 @@ const PdfViewerCard = () => {
   }
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <br />
-        <Document file='/ublanket.pdf' onLoadSuccess={onDocumentLoadSuccess}>
-          <Page height='450' pageNumber={pageNumber} />
-        </Document>
-        <p>Page {pageNumber} of {numPages}</p>
+    <div className="pdfviewer">
+      <div className="pdfview-container">
+      <p>Page {pageNumber} of {numPages}</p>
         {pageNumber > 1 && 
         <button onClick={changePageBack}>Previous Page</button>
         }
@@ -38,10 +34,13 @@ const PdfViewerCard = () => {
           pageNumber < numPages &&
           <button onClick={changePageNext}>Next Page</button>
         }
-      </header>
-      {/* <center>
-        <div>
-          <Document file='test.pdf' onLoadSuccess={onDocumentLoadSuccess}>
+        <Document file='/ublanket.pdf' onLoadSuccess={onDocumentLoadSuccess}>
+          <Page height='420' pageNumber={pageNumber} />
+        </Document>
+      </div>
+
+        {/* <div className="pdfview-container">
+          <Document file='ublanket.pdf' onLoadSuccess={onDocumentLoadSuccess}>
             {Array.from(
               new Array(numPages), 
               (el,index) => (
@@ -52,8 +51,8 @@ const PdfViewerCard = () => {
               )
             )}
           </Document>
-        </div>
-      </center> */}
+        </div> */}
+
     </div>
   );
 }

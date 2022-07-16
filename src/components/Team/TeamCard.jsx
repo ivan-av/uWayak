@@ -4,7 +4,7 @@ const TeamCard = () => {
 
   return (
     <article className='team-card'>
-      <h3>Integrantes</h3>
+      <h3 className='team-card__title'>Integrantes</h3>
       <ul>
         <li>Julia E. Carbajal García - Team Lead / Administradora</li>
         <li>Arely I. Coria Velázquez - Publicista</li>

@@ -2,6 +2,8 @@
     background-image:url(../../../assets/img/svg/bg_image.svg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding-bottom: 20px;
 }
 
 .team__container{
@@ -12,7 +14,21 @@
 }
 
 .team__title{
+    padding-top: 25px;
     text-align: center;
     color: rgb(37, 37, 137);
     font-size: 30px;
+
+    padding-bottom: 15px;
 }
+
+.team-card__title{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.team-card li {
+    list-style:inside;
+    padding-bottom: 5px;
+}
+

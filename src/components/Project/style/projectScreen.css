@@ -3,36 +3,52 @@
   padding: var(--padding-mobile);
   padding-bottom: 60px;
 
-  background-image:url(../../../assets/img/svg/bg_image.svg);
+  background-image: url(../../../assets/img/svg/bg_image.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.project-card {
+
+/* .project-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 50px;
-}
+} */
+
 .project-info__title {
-  margin-bottom: 20px;
-  text-align: center;
+  /* margin-bottom: 20px; */
+  color: rgb(37, 37, 137);
+
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 30px;
   grid-column: span 2;
+  text-align: center;
+
 }
-.project-info__description {
+
+/* .project-info__description {
   line-height: 1.5;
   grid-column: span 2;
   margin-bottom: 30px;
-}
+} */
+
 
 @media screen and (min-width: 720px) {
   .project {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* gap: 40px; */
     padding-left: var(--padding-tablet);
     padding-right: var(--padding-tablet);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .project-info__title{
-    text-align: left;
+
+  .project-info__title {
+    text-align: center;
   }
 }
 

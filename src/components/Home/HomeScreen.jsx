@@ -12,6 +12,8 @@ const HomeScreen = () => {
       </div>
       <div className='home__card-container'>
         <HomeCard />
+        <HomeCard />
+        <HomeCard />
       </div>
     </div>
   )
