@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-card__icon {
+  font-size: 70px;
+  color: rgb(226, 180, 28);
+}
+
+.contact-card__message {
+  color: rgb(37, 37, 137);
+  font-size: 30px;
+}
+
