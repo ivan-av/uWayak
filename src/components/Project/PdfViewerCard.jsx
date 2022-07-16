@@ -25,7 +25,7 @@ const PdfViewerCard = () => {
 
   return (
     <div className="pdfviewer">
-      <div className="pdfview-container">
+      {/* <div className="pdfview-container">
       <p>Page {pageNumber} of {numPages}</p>
         {pageNumber > 1 && 
         <button onClick={changePageBack}>Previous Page</button>
@@ -37,9 +37,9 @@ const PdfViewerCard = () => {
         <Document file='/ublanket.pdf' onLoadSuccess={onDocumentLoadSuccess}>
           <Page height='420' pageNumber={pageNumber} />
         </Document>
-      </div>
+      </div> */}
 
-        {/* <div className="pdfview-container">
+        <div className="pdfview-container">
           <Document file='ublanket.pdf' onLoadSuccess={onDocumentLoadSuccess}>
             {Array.from(
               new Array(numPages), 
@@ -51,7 +51,7 @@ const PdfViewerCard = () => {
               )
             )}
           </Document>
-        </div> */}
+        </div>
 
     </div>
   );
