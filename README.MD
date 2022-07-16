@@ -1,7 +1,7 @@
 # uBlanket (Work in progress)
 #### MBA project for a platform here it's possible consult information of the development of a new product
 
-<!-- ##### Deploy: https://u-blanket.netlify.app/ -->
+##### Deploy: https://u-blanket.netlify.app/
 
 ---
 #### **Team:**
