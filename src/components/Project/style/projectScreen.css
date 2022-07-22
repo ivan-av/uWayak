@@ -4,8 +4,10 @@
   padding-bottom: 60px;
 
   background-image: url(../../../assets/img/svg/bg_image.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
+
+  /* position: relative; */
 }
 
 /* .project-card {
@@ -17,6 +19,8 @@
 .project-info__title {
   /* margin-bottom: 20px; */
   color: rgb(37, 37, 137);
+  text-shadow: 2px 2px 2px rgb(196, 195, 195);
+  font-style: italic;
 
   padding-top: 10px;
   padding-bottom: 5px;
@@ -26,12 +30,21 @@
 
 }
 
-/* .project-info__description {
-  line-height: 1.5;
-  grid-column: span 2;
-  margin-bottom: 30px;
+/* .pdfview-scheme{
+
 } */
 
+/* .pdfview-page{
+  padding-bottom: 10px;
+} */
+
+@media screen and (max-width: 720px) {
+  .pdfview-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 @media screen and (min-width: 720px) {
   .project {

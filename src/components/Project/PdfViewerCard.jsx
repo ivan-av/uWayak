@@ -1,13 +1,23 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 
 const PdfViewerCard = () => {
+  const [windowWidth, setWindowWith] = useState(0);
+
+  // To do: Set a trigger that start the useEffect when the size of the windows change
+  useEffect(() => {
+    if (window.matchMedia("(min-width: 600px)").matches) {
+      setWindowWith(410)
+    } else {
+      setWindowWith(210)
+    }
+  },[])
 
   const [numPages, setNumPages] = useState(null);
   // eslint-disable-next-line
   const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({numPages}) {
+  function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
     setPageNumber(1);
   }
@@ -40,19 +50,21 @@ const PdfViewerCard = () => {
         </Document>
       </div> */}
 
-        <div className="pdfview-container">
+      <div className='pdfview-container'>
+        <div className='pdfview-scheme'>
           <Document file='ublanket.pdf' onLoadSuccess={onDocumentLoadSuccess}>
             {Array.from(
-              new Array(numPages), 
-              (el,index) => (
-                <Page 
-                  key={`page_${index+1}`}
-                  pageNumber={index+1}
+              new Array(numPages),
+              (el, index) => (
+                <Page height={windowWidth} className='pdfview-page'
+                  key={`page_${index + 1}`}
+                  pageNumber={index + 1}
                 />
               )
             )}
           </Document>
         </div>
+      </div>
 
     </div>
   );

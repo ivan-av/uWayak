@@ -12,10 +12,11 @@ const ProjectScreen = () => {
       </div>
 
       <br />
-      
+
       <div>
         <PdfViewerCard />
       </div>
+
     </div>
   )
 }
