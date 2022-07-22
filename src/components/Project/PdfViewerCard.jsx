@@ -9,7 +9,7 @@ const PdfViewerCard = () => {
     if (window.matchMedia("(min-width: 600px)").matches) {
       setWindowWith(410)
     } else {
-      setWindowWith(210)
+      setWindowWith(200)
     }
   },[])
 
