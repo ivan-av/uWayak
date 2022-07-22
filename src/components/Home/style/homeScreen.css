@@ -54,7 +54,7 @@
 .hero__image{
   height: 100%;
   border-radius: 50%;
-  width: 70vh;
+  width: 40vh;
 }
 
 /* ------ */
@@ -67,6 +67,10 @@
 
   .hero__script-section{
     width: 40%;
+  }
+
+  .hero__image{
+    width: 70vh;
   }
 }
 
