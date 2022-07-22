@@ -1,4 +1,5 @@
 import React from 'react'
+import protoHeroImg from '../../assets/img/png/proto.jfif'
 
 
 const HomeHero = () => {
@@ -17,7 +18,7 @@ const HomeHero = () => {
 
         <div className='hero__image-section'>
           <div className='hero__image-container'>
-            <img className='hero__image' src="https://images.unsplash.com/photo-1643241011137-0db4c7fc34e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="" />
+            <img className='hero__image' src={protoHeroImg} alt="" />
           </div> 
         </div>
         
