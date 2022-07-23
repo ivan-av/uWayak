@@ -1,15 +1,15 @@
 .home {
   display: flex;
   flex-direction: column;
-  
-  background-image:url(../../../assets/img/svg/bg_image.svg);
+
+  background-image: url(../../../assets/img/svg/bg_image.svg);
   background-repeat: no-repeat;
   background-size: cover;
 
   padding-bottom: 10px;
 }
 
-.home-hero{
+.home-hero {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -18,7 +18,7 @@
   /* border: 1px solid red; */
 }
 
-.hero__section{
+.hero__section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,16 +28,16 @@
 }
 
 
-.hero__script-section{
+.hero__script-section {
   width: 80%;
 }
 
-.hero__image-container{
+.hero__image-container {
   height: max(300px);
 
 }
 
-.hero__title{
+.hero__title {
   font-size: 60px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
@@ -45,13 +45,13 @@
   text-shadow: 2px 2px 2px rgb(135, 135, 135);
 }
 
-.hero__description{
+.hero__description {
   padding-top: 20px;
   font-size: 20px;
   font-family: 'Edu NSW ACT Foundation', cursive;
 }
 
-.hero__image{
+.hero__image {
   height: 100%;
   border-radius: 50%;
   width: min(330px);
@@ -60,23 +60,23 @@
 /* ------ */
 
 @media screen and (min-width: 720px) {
-  .hero__section{
-  flex-direction: row;
-  gap: 30px;
+  .hero__section {
+    flex-direction: row;
+    gap: 30px;
   }
 
-  .hero__script-section{
+  .hero__script-section {
     width: 40%;
   }
 
-  .hero__image{
+  .hero__image {
     width: 70vh;
   }
 }
 
 /* ------ */
 
-.home__card-container{
+.home__card-container {
   padding: var(--padding-mobile);
   display: grid;
   justify-items: center;
@@ -93,6 +93,7 @@
 
   /* font-family: 'Edu NSW ACT Foundation', cursive; */
 }
+
 .home-card__header {
   height: auto;
   padding: 20px;
@@ -101,7 +102,7 @@
 
 }
 
-.home-card__title{
+.home-card__title {
   font-style: italic;
   font-size: 1.4rem;
   color: rgb(82, 82, 81);

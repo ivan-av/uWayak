@@ -1,23 +1,16 @@
 import React from 'react'
 
-const TeamCard = () => {
+const TeamCard = ({teamMember}) => {
 
   return (
     <article className='team-card'>
-      <h3 className='team-card__title'>Integrantes</h3>
-      <ul>
-        <li>Julia E. Carbajal García - Team Lead / Administradora</li>
-        <li>Arely I. Coria Velázquez - Publicista</li>
-        <li>B. Itzel Aguilar González - Psicóloga</li>
-        <li>Eduardo Iniestra Gómez - Administrador</li>
-        <li>Jair E. García Flores - Publicista</li>
-        <li>Mireya A. Sánchez Martínez - Psicóloga</li>
-        <li>Martha J. Abundiz Linares - Licenciada en Turismo</li>
-        <li>Rainier A. Chavolla Méndez - Licenciado en Turismo</li>
-        <li>Ricardo Cruz Vazquez - Administrador</li>
-        <li>Iván D. Avila Campos - Desarrollador</li>
-      </ul>
-      
+      <header className='team-card__header'>
+      <img src={teamMember.photo} alt="Team member" className='team__profile-photo'/>
+      </header>
+      <div className='team-card__body'>
+        <span className='team-card__name'>{teamMember.name}</span>
+        <span className='team-card__role'>{teamMember.role}</span>
+      </div>
     </article>
   )
 }
