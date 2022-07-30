@@ -4,7 +4,7 @@ const ContactCard = () => {
   return (
     <article className='contact-card__container'>
       <h2 className='contact-card__message'>Contacto</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem architecto delectus placeat, iste eaque aliquam voluptas amet labore? Corrupti nesciunt, perspiciatis recusandae tempore inventore velit nulla debitis accusamus! Odit!</p>
+      <p>Correo: ublanket.contacto@gmail.com</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique, nam mollitia, atque impedit, possimus laboriosam maiores hic eum cupiditate labore! Earum voluptatem ipsum veniam natus beatae repudiandae dolore quae!</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus adipisci placeat autem unde beatae hic, impedit voluptatibus tenetur sit! Nihil assumenda nemo doloribus officia. Quaerat possimus excepturi adipisci. Quam, libero?</p>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum natus unde sed consectetur, rerum similique delectus totam harum tempora molestias porro dolore at dolorum reprehenderit velit quas perspiciatis vero modi?</p>

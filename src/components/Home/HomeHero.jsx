@@ -1,5 +1,5 @@
 import React from 'react'
-import protoHeroImg from '../../assets/img/png/proto.jfif'
+import protoHeroImg from '../../assets/img/png/proto.jpeg'
 
 
 const HomeHero = () => {
