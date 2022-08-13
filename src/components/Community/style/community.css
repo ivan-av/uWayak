@@ -1,0 +1,85 @@
+.community {
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../../../assets/img/svg/bg_image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* padding: 0px 0px 30px 0px */
+}
+
+.community__title {
+    padding-top: 25px;
+    text-align: center;
+    color: rgb(37, 37, 137);
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgb(196, 195, 195);
+    font-style: italic;
+
+    padding-bottom: 20px;
+}
+
+.community__card-container {
+    padding: var(--padding-mobile);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* gap: px; */
+    background-color: rgba(255, 255, 255, 0.641);
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 30px;
+}
+
+.community-card {
+    width: min(100%, 220px);
+}
+
+.community-card:hover {
+    transition: 0.2s ease;
+    border-radius: 10px;
+    /* border: 1px solid rgb(234, 234, 234); */
+    background-color: rgba(255, 240, 166, 0.703);
+    box-shadow: 1px 2px 2px rgb(192, 192, 192);
+}
+
+.community-card__header {
+    height: auto;
+    padding: 20px 20px 5px 20px;
+    /* border-bottom: 1px solid var(--border-color); */
+    /* position: relative; */
+}
+
+.community__profile-photo {
+    border-radius: 50%;
+}
+
+.community-card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    padding: 20px;
+    /* padding-bottom: 40px; */
+    /* position: relative; */
+
+    text-align: center;
+}
+
+.community-card__name {
+    /* font-family: 'Dancing Script', cursive; */
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(6, 56, 131);
+
+    padding-bottom: 10px;
+}
+
+.community-card__role {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.1rem;
+    color: rgb(81, 81, 82);
+}

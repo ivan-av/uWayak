@@ -41,6 +41,14 @@ const HeaderScreen = () => {
           </li>
           <li className="navbar__items">
             <NavLink
+              to='/community'
+              className={({ isActive }) => isActive ? 'navbar__link-active navbar__links' : 'navbar__links'}>
+              <i className="fa-solid fa-globe"></i>
+              <p className="navbar__label">Comunidad</p>
+            </NavLink>
+          </li>
+          <li className="navbar__items">
+            <NavLink
               to='/team'
               className={({ isActive }) => isActive ? 'navbar__link-active navbar__links' : 'navbar__links'}>
               <i className="fa-solid fa-people-group"></i>
