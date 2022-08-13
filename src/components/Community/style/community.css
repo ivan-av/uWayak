@@ -20,6 +20,12 @@
     padding-bottom: 20px;
 }
 
+.community__title-subtype{
+    color: rgb(16, 125, 171);
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+}
+
 .community__card-container {
     padding: var(--padding-mobile);
     display: flex;
