@@ -46,13 +46,13 @@ const TeamScreen = () => {
       id: 7,
       name: 'Martha Abundiz',
       role: 'Licenciada en Turismo',
-      photo: 'https://source.unsplash.com/random/300x315/?cloud'
+      photo: 'https://drive.google.com/uc?export=view&id=1RjzVJQ-e1wSPccsDI9r_fpa7wlTa4B1Y'
     },
     {
       id: 8,
       name: 'Mireya Sánchez',
       role: 'Psicóloga',
-      photo: 'https://source.unsplash.com/random/300x310/?cloud'
+      photo: 'https://drive.google.com/uc?export=view&id=1n19DDPGn_VFLjErcC0fsVf7Y9TFTI83P'
     },
     {
       id: 9,
@@ -70,7 +70,7 @@ const TeamScreen = () => {
 
   return (
     <div className='team'>
-      <h2 className='team__title'>Equipo</h2>
+      <h2 className='team__title'>Equipo <span className='community__title-subtype'>U - Wayak</span></h2>
         <div className='team__card-container'>
         {
           teamMembers.map(teamMember => (
