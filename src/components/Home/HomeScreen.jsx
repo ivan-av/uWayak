@@ -8,20 +8,27 @@ const HomeScreen = () => {
   const productCards = [
     {
       id: 1,
-      title: 'Característica 1',
+      title: 'Si vas a soñar, sueñá en grande',
       description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
     },
     {
       id: 2,
-      title: 'Característica 2',
+      title: 'Como el calor de casa',
       description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
     },
     {
       id: 3,
-      title: 'Característica 3',
+      title: 'U Wayak! Tu compañera de viaje',
+      description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
+    },
+    {
+      id: 4,
+      title: 'La clave del descanso está en U .... viaja y disfruta.',
       description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
     }
   ]
+
+  
 
   return (
     <div className='home'>

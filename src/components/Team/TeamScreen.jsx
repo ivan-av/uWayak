@@ -58,7 +58,7 @@ const TeamScreen = () => {
       id: 9,
       name: 'Rainier Chavolla',
       role: 'Licenciado en Turismo',
-      photo: 'https://source.unsplash.com/random/300x305/?fruit'
+      photo: 'https://drive.google.com/file/d/1pc61Zd-IUDeLMvqBaky4DNHXJUymKjS6/view'
     },
     {
       id: 10,

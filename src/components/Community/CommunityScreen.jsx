@@ -69,7 +69,7 @@ const CommunityScreen = () => {
 
   return (
     <div className='community'>
-      <h2 className='community__title'>Comunidad <span className='community__title-subtype'>U - Blanket</span></h2>
+      <h2 className='community__title'>Comunidad <span className='community__title-subtype'>U - Wayak</span></h2>
         <div className='community__card-container'>
         {
           teamMembers.map(teamMember => (

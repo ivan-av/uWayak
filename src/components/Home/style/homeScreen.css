@@ -46,9 +46,16 @@
 }
 
 .hero__description {
+  /* color: rgb(2, 2, 2); */
   padding-top: 20px;
-  font-size: 20px;
-  font-family: 'Edu NSW ACT Foundation', cursive;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Rouge Script', cursive;
+}
+
+.hero-description__logo{
+  font-weight: 600;
+  color:rgb(18, 108, 210);
 }
 
 .hero__image {

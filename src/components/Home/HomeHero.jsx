@@ -9,10 +9,12 @@ const HomeHero = () => {
 
         <div className='hero__script-section'>
           <div className='hero__title'>
-            U - blanket
+            U - Wayak
           </div>
           <div className='hero__description'>
-            Slogan, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quaerat necessitatibus dicta nobis modi aperiam tempora incidunt unde quae laborum voluptas itaque voluptates, harum eaque maxime vitae, eum, magni in!
+            Los recuerdos en la memoria podrían borrarse...
+            <br></br>
+            con <span className='hero-description__logo'>U - Wayak</span> quedarán por siempre
           </div>
         </div>
 
