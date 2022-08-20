@@ -28,7 +28,7 @@ const TeamScreen = () => {
       id: 4,
       name: 'Iván Avila',
       role: 'Programador',
-      photo: 'https://source.unsplash.com/random/300x315/?fruit'
+      photo: 'https://previews.dropbox.com/p/thumb/ABrSHpeZKkgDmw_ZDy-pYp-ge_JxpgYg6MiQhxShCtnT6ECdhqaBcdjMS86yZ0d1u8Bbj0C87vfw1NyIggZsElaD-ZoQAnFv4LD0Ne9s10Qh4MuHJwGl7BL81cmaJo8KKlppDfe_dNICrevWFQLXhZmAxge73m996rtSrGZwSeTWyR3xASsk-2TlT-A1xS4tXydnO7tyzqh_-xoENKd26R8MjbVWQ4qY2DY96Xp30l5onLJlPztBQwde1c110euxFbq104Zmo_aBwq2ZrRIAfuGZhLbp-J6-Vu8rtgpaLVZmsdym5Rm9aqzq11YWqWHa3HM2A5WqgWyK4XCwcqEGq_qHFypo5ZIBlPFU_ZoVo33UnYZoiaYkS684iDUNOHC5X_c/p.jpeg'
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ const TeamScreen = () => {
       id: 9,
       name: 'Rainier Chavolla',
       role: 'Licenciado en Turismo',
-      photo: 'https://drive.google.com/file/d/1pc61Zd-IUDeLMvqBaky4DNHXJUymKjS6/view'
+      photo: 'https://drive.google.com/file/d/1pc61Zd-IUDeLMvqBaky4DNHXJUymKjS6/view?usp=sharing'
     },
     {
       id: 10,
