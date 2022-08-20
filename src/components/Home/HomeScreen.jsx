@@ -25,10 +25,14 @@ const HomeScreen = () => {
       id: 4,
       title: 'La clave del descanso está en U .... viaja y disfruta.',
       description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
+    },
+    {
+      id: 5,
+      title: 'SI VAS A VIAJAR, U WAYAK, DEBES USAR',
+      description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
     }
   ]
 
-  
 
   return (
     <div className='home'>
