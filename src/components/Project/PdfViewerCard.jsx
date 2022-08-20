@@ -52,7 +52,7 @@ const PdfViewerCard = () => {
 
       <div className='pdfview-container'>
         <div className='pdfview-scheme'>
-          <Document file='ublanket.pdf' onLoadSuccess={onDocumentLoadSuccess}>
+          <Document file='uwayak.pdf' onLoadSuccess={onDocumentLoadSuccess}>
             {Array.from(
               new Array(numPages),
               (el, index) => (
