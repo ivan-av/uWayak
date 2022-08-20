@@ -8,28 +8,18 @@ const HomeScreen = () => {
   const productCards = [
     {
       id: 1,
-      title: 'Si vas a soñar, sueñá en grande',
-      description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
+      title: 'Recuerda los lugares que visitaste',
+      description: '¡Con U Wayak podrás dejar marca en cada lugar que visitaste!'
     },
     {
       id: 2,
-      title: 'Como el calor de casa',
-      description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
+      title: '¡Lleva tu wayak siempre contigo!',
+      description: 'Ponte en contacto con nosotros y personaliza tu compañera de viaje.'
     },
     {
       id: 3,
-      title: 'U Wayak! Tu compañera de viaje',
-      description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
-    },
-    {
-      id: 4,
-      title: 'La clave del descanso está en U .... viaja y disfruta.',
-      description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
-    },
-    {
-      id: 5,
-      title: 'SI VAS A VIAJAR, U WAYAK, DEBES USAR',
-      description: 'Excepturi architecto quasi sed omnis tenetur ut beatae quia saepe assumenda, sunt voluptate temporibus doloribus dolorem, quis praesentium, perferendis neque eveniet unde.'
+      title: '¡Contactanos!',
+      description: 'Uno de tus asesores está listo para personalizar tu Wayak'
     }
   ]
 
