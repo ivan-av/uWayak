@@ -46,7 +46,7 @@ const TeamScreen = () => {
       id: 7,
       name: 'Martha Abundiz',
       role: 'Licenciada en Turismo',
-      photo: 'https://drive.google.com/uc?export=view&id=1RjzVJQ-e1wSPccsDI9r_fpa7wlTa4B1Y'
+      photo: 'https://drive.google.com/uc?export=view&id=16BsdvxZQGrDpGHCC6j25GK11PeywhqCv'
     },
     {
       id: 8,
