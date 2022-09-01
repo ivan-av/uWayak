@@ -5,12 +5,14 @@ const ContactCard = () => {
     <article className='contact-card__container'>
       <h2 className='contact-card__message'>Contacto</h2>
       <p>Correo: uwayak.contacto@gmail.com</p>
-      <form /*onSubmit={searchLocation}*/ className='input__contact'>
-        <input type="text" placeholder='Nombre'/><br />
-        <input type="text" placeholder='Apellidos'/><br/>
-        <input type="text" placeholder='Correo electrónico'/> <br />
-        <button className='location-input__button'>Enviar</button>
-      </form>
+      <div className='form-contact__container'>
+        <form /*onSubmit={searchLocation}*/ className='form__contact'>
+          <input className='input__contact' type="text" placeholder='Nombre' /><br />
+          <input className='input__contact' type="text" placeholder='Apellidos' /><br />
+          <input className='input__contact' type="text" placeholder='Correo electrónico' /> <br />
+          <button className='location-input__button'>Enviar</button>
+        </form>
+      </div>
     </article>
   )
 }
