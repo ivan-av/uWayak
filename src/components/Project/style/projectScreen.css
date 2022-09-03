@@ -10,34 +10,61 @@
   /* position: relative; */
 }
 
-/* .project-card {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 50px;
-} */
-
-.project-info__title {
-  /* margin-bottom: 20px; */
-  color: rgb(37, 37, 137);
-  text-shadow: 2px 2px 2px rgb(196, 195, 195);
-  font-style: italic;
-
-  padding-top: 10px;
-  padding-bottom: 5px;
-  font-size: 30px;
-  grid-column: span 2;
-  text-align: center;
-
+.project-hero {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.334);
+  /* border: 1px solid red; */
 }
 
-/* .pdfview-scheme{
+.hero-project__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  /* flex-direction: column; */
+}
 
-} */
+.hero-project__script-section {
+  width: 80%;
+}
 
-/* .pdfview-page{
-  padding-bottom: 10px;
-} */
+.hero-project__title {
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(37, 37, 137);
+  text-shadow: 2px 2px 2px rgb(135, 135, 135);
+}
 
+
+.hero-project-description__logo{
+  font-weight: 600;
+  color: rgb(16, 125, 171);
+  font-family: 'Dancing Script', cursive;
+
+  font-size: 45px;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 2px 2px 2px rgb(200, 200, 200);
+}
+
+/* ------ */
+
+@media screen and (min-width: 720px) {
+  .hero-project__section {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .hero-project__script-section {
+    width: 40%;
+  }
+
+}
 
   .pdfview-page {
     display: flex;
