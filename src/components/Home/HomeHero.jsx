@@ -8,7 +8,7 @@ const HomeHero = () => {
       <header className='hero__section'>
 
         <div className='hero__script-section'>
-          <div className='hero__title'>
+          <div className='hero__title-home'>
             U - Wayak
           </div>
           <div className='hero__description'>

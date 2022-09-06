@@ -7,7 +7,7 @@ const ProjectScreen = () => {
 
   return (
     <div className='project'>
-      <div className='project__hero__container'>
+      <div className='project__hero'>
         <ProjectHero />
       </div>
       <br />

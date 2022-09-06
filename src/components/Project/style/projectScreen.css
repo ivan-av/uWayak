@@ -10,7 +10,7 @@
   /* position: relative; */
 }
 
-.project-hero {
+.hero {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -19,29 +19,30 @@
   /* border: 1px solid red; */
 }
 
-.hero-project__section {
+.hero__container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
-.hero-project__script-section {
+.hero__title-container {
   width: 80%;
 }
 
-.hero-project__title {
-  font-size: 35px;
+.hero__title {
+  font-size: 40px;
   text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   color: rgb(37, 37, 137);
   text-shadow: 2px 2px 2px rgb(135, 135, 135);
 }
 
 
-.hero-project-description__logo{
+.hero__logo{
   font-weight: 600;
   color: rgb(16, 125, 171);
   font-family: 'Dancing Script', cursive;
@@ -55,12 +56,12 @@
 /* ------ */
 
 @media screen and (min-width: 720px) {
-  .hero-project__section {
+  .hero__container {
     flex-direction: row;
     gap: 30px;
   }
 
-  .hero-project__script-section {
+  .hero__title-container {
     width: 40%;
   }
 
@@ -85,10 +86,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .project-info__title {
-    text-align: center;
   }
 }
 
