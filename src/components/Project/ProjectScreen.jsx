@@ -10,7 +10,7 @@ const ProjectScreen = () => {
       <div className='project__hero'>
         <ProjectHero />
       </div>
-      <br />
+      
       <div>
         <PdfViewerCard />
       </div>

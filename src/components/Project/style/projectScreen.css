@@ -74,11 +74,11 @@
   }
 
 
-@media screen and (min-width: 720px) {
+/* @media screen and (min-width: 720px) {
   .project {
-    /* display: grid; */
-    /* grid-template-columns: repeat(2, 1fr); */
-    /* gap: 40px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
     padding-left: var(--padding-tablet);
     padding-right: var(--padding-tablet);
 
@@ -97,4 +97,4 @@
     padding-left: var(--padding-desktop);
     padding-right: var(--padding-desktop);
   }
-}
+} */

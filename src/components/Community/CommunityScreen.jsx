@@ -1,4 +1,5 @@
 import CommunityCard from './CommunityCard'
+import CommunityHero from './CommunityHero'
 import './style/community.css'
 
 const CommunityScreen = () => {
@@ -69,17 +70,20 @@ const CommunityScreen = () => {
 
   return (
     <div className='community'>
-      <h2 className='community__title'>Comunidad <span className='community__title-subtype'>U - Wayak</span> (en desarrollo)</h2>
-        <div className='community__card-container'>
+      <div className='community__hero'>
+        <CommunityHero />
+      </div>
+
+      <div className='community__card-container'>
         {
           teamMembers.map(teamMember => (
-            <CommunityCard 
-            key={teamMember.id}
-            teamMember={teamMember}
+            <CommunityCard
+              key={teamMember.id}
+              teamMember={teamMember}
             />
           ))
         }
-        </div>
+      </div>
     </div>
   )
 }
