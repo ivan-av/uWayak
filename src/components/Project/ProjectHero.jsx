@@ -8,12 +8,14 @@ const ProjectHero = () => {
         <div className='hero__title-container'>
           <div className='hero__title'>
             Planeación del proyecto
+            <br />
+            <span className='hero__logo'>U - Wayak</span>
           </div>
         </div>
 
-        <div className='hero__logo-container'>
+        {/* <div className='hero__logo-container'>
           <span className='hero__logo'>U - Wayak</span>
-        </div>
+        </div> */}
 
       </header>
     </div>

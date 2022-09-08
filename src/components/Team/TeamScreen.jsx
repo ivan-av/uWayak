@@ -1,5 +1,6 @@
 import TeamCard from './TeamCard'
 import './style/team.css'
+import TeamHero from './TeamHero'
 
 const TeamScreen = () => {
 
@@ -70,17 +71,20 @@ const TeamScreen = () => {
 
   return (
     <div className='team'>
-      <h2 className='team__title'>Equipo <span className='community__title-subtype'>U - Wayak</span></h2>
-        <div className='team__card-container'>
+      <div className='team__hero'>
+        <TeamHero />
+      </div>
+
+      <div className='team__card-container'>
         {
           teamMembers.map(teamMember => (
-            <TeamCard 
-            key={teamMember.id}
-            teamMember={teamMember}
+            <TeamCard
+              key={teamMember.id}
+              teamMember={teamMember}
             />
           ))
         }
-        </div>
+      </div>
     </div>
   )
 }

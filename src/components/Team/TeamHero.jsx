@@ -1,16 +1,14 @@
 import React from 'react'
 
-const CommunityHero = () => {
+const TeamHero = () => {
   return (
     <div className='hero'>
       <header className='hero__container'>
 
         <div className='hero__title-container'>
           <div className='hero__title'>
-            Comunidad
+            Equipo
             <span className='hero__logo'> U - Wayak</span>
-            <br />
-            (en desarrollo)
           </div>
         </div>
 
@@ -23,4 +21,4 @@ const CommunityHero = () => {
   )
 }
 
-export default CommunityHero
+export default TeamHero
