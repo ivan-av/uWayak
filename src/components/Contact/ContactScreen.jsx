@@ -1,5 +1,6 @@
 import React from "react";
 import ContactCard from "./ContactCard";
+import ContactHero from "./ContactHero";
 import './style/contactScreen.css'
 
 const ContactScreen = () => {
@@ -7,7 +8,13 @@ const ContactScreen = () => {
 
   return (
     <div className="contact">
-          <ContactCard />
+      <div className='contact__hero'>
+        <ContactHero />
+      </div>
+
+      <div className='contact__container'>
+        <ContactCard />
+      </div>
     </div>
   );
 };
