@@ -7,7 +7,7 @@ const ContactHero = () => {
 
         <div className='hero__title-container'>
           <div className='hero__title'>
-            Equipo
+            Contacto
             <span className='hero__logo'> U - Wayak</span>
           </div>
         </div>

@@ -3,7 +3,6 @@ import React from 'react'
 const ContactCard = () => {
   return (
     <article className='contact-card__container'>
-      <h2 className='contact-card__message'>Contacto</h2>
       <p>Correo: uwayak.contacto@gmail.com</p>
       <div className='form-contact__container'>
         <form /*onSubmit={searchLocation}*/ className='form__contact'>
